@@ -1,0 +1,12 @@
+<HTML>
+<HEAD>
+<TITLE>sync</TITLE>
+</HEAD>
+<BODY>
+	Syncing.<br>
+	<?php 
+		passthru("./autoscript");
+	?><br>
+	Synced.<br>
+</BODY>
+</HTML>

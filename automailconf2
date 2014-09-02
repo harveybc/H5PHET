@@ -1,0 +1,22 @@
+#!/bin/bash
+# borra los temporales anteriores.
+rm -f /var/www/phppgadmin/h5phet/temp0.nnp
+rm -f /var/www/phppgadmin/h5phet/temp1.nnp
+rm -f /var/www/phppgadmin/h5phet/temp2.nnp
+# trae los archivos temporales
+wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp0.nnp http://200.26.142.227/phppgadmin/h5phet/reps_inic.nnp
+wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp1.nnp http://www.credirebaja.com/phppgadmin/h5phet/reps_inic.nnp 
+wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp2.nnp http://10.11.0.46/phppgadmin/h5phet/reps_inic.nnp 
+#verifica si los temporales tienen tamaño mayor a cero
+if [ -s /var/www/phppgadmin/h5phet/temp0.nnp ]; then
+	rm -f /var/www/phppgadmin/h5phet/distrib0.nnp 
+	cp /var/www/phppgadmin/h5phet/temp0.nnp	/var/www/phppgadmin/h5phet/distrib0.nnp	
+fi
+if [ -s /var/www/phppgadmin/h5phet/temp1.nnp ]; then       
+        rm -f /var/www/phppgadmin/h5phet/distrib1.nnp        
+        cp /var/www/phppgadmin/h5phet/temp1.nnp /var/www/phppgadmin/h5phet/distrib1.nnp       
+fi
+if [ -s /var/www/phppgadmin/h5phet/temp2.nnp ]; then       
+        rm -f /var/www/phppgadmin/h5phet/distrib2.nnp        
+        cp /var/www/phppgadmin/h5phet/temp2.nnp /var/www/phppgadmin/h5phet/distrib2.nnp       
+fi

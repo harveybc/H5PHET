@@ -1,0 +1,30 @@
+rm -R /var/www/phppgadmin/h5phet/src/H5PHET\ -\ NEAT/
+cp /home/harveybc/h5/trdata.gtd /var/www/phppgadmin/h5phet/
+cp /home/harveybc/h5/trdata.gtd /var/www/phppgadmin/h5phet/2/
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/reps_inic.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/reps_inic.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/distrib0.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/distrib1.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/distrib2.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/distrib3.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/distrib4.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/distrib0.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/distrib1.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/distrib2.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/distrib3.nnp
+cp /home/harveybc/h5/reps.nnp /var/www/phppgadmin/h5phet/2/distrib4.nnp
+cp /home/harveybc/h5/*.php /var/www/phppgadmin/h5phet/
+
+cp -R /home/harveybc/h5/H5PHET\ -\ NEAT/ /var/www/phppgadmin/h5phet/src/
+cd /var/www/phppgadmin/h5phet/src/H5PHET\ -\ NEAT/
+gcc -lm -lc -o /usr/sbin/automail auxiliares.c gen.c neat.c pob.c especie.c genoma.c params.c
+killall automail
+# tampob=96, especies=8, cargannp=0, usarDistrib=0(1 solo archivo de distrib)
+#/usr/sbin/automail -t96 -e8 -n8 -p/var/www/phppgadmin/h5phet/ -x/usr/sbin/automailconf &
+#/usr/sbin/automail -t192 -e16 -d5 -p/var/www/phppgadmin/h5phet/2/ -x/usr/sbin/automailconf2 &
+echo 1,
+cd /
+
+

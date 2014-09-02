@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="H5PHET - NEAT.cbp" active="1" />
+		<Project filename="../h5phet/src/SNN_eval/H5PHET - SNN evaluator/H5PHET - SNN evaluator.cbp" />
+		<Project filename="../h5phet/intDistrib/xorTrainerGen/xorTrainerGen.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

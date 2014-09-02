@@ -1,0 +1,3 @@
+killall -q wget
+# actualiza los representantes de otras redes.
+/usr/sbin/automailconf2 &

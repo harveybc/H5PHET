@@ -1,0 +1,112 @@
+﻿Build started 01/04/2011 07:35:40 p.m..
+     1>Project "D:\h5phet\src\H5PHET - NEAT - CUDA\H5PHET - NEAT - CUDA\H5PHET - NEAT - CUDA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\H5PHET - NEAT - CUDA.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt ..\pob.cu
+         pob.cu
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(29): error C2144: syntax error : 'void' should be preceded by ';'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(44): error C2082: redefinition of formal parameter 'valorTr'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2065: 'blockDim' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2228: left of '.x' must have class/struct/union
+                 type is ''unknown-type''
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2065: 'blockIdx' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2228: left of '.x' must have class/struct/union
+                 type is ''unknown-type''
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2065: 'threadIdx' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(48): error C2228: left of '.x' must have class/struct/union
+                 type is ''unknown-type''
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(50): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(53): error C2065: '__shared__' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(53): error C2144: syntax error : 'float' should be preceded by ';'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(53): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(55): error C2065: '__shared__' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(55): error C2144: syntax error : 'float' should be preceded by ';'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(55): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(57): error C2065: '__shared__' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(57): error C2144: syntax error : 'float' should be preceded by ';'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(57): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(59): error C2065: '__shared__' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(59): error C2144: syntax error : 'float' should be preceded by ';'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(59): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(69): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(70): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(80): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(83): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(84): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(86): error C2676: binary '[' : 'tConexDataF' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(86): error C2228: left of '.conexIn' must have class/struct/union
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(87): error C2676: binary '[' : 'tConexDataF' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(87): error C2228: left of '.conexOut' must have class/struct/union
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(88): error C2676: binary '[' : 'tConexDataF' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(88): error C2228: left of '.peso' must have class/struct/union
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(94): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(96): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(106): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(113): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(115): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(128): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(130): error C2143: syntax error : missing ']' before ')'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(130): error C2108: subscript is not of integral type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(132): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(138): error C2107: illegal index, indirection not allowed
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(145): error C2108: subscript is not of integral type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(157): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(158): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(159): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(160): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(163): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(164): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(175): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(176): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(177): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(178): error C2109: subscript requires array or pointer type
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(179): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(181): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(183): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(185): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(186): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(189): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(192): error C3861: '__syncthreads': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(201): error C2065: 'THREADSPB' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(220): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(222): error C2065: 'cudaMemcpyHostToDevice' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(222): error C3861: 'cudaMemcpy': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(225): error C2059: syntax error : '<'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(227): error C2065: 'cudaMemcpyDeviceToHost' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(227): error C3861: 'cudaMecpy': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(234): error C2143: syntax error : missing ';' before '}'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(233): error C3861: 'cudaFree': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(284): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(297): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(316): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(392): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(406): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(850): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(860): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(862): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(864): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(866): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(867): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(868): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(870): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(871): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(872): error C3861: 'cudaMalloc': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(875): error C2065: 'cudaMemcpyHostToDevice' : undeclared identifier
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(875): error C3861: 'cudaMemcpy': identifier not found
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(1111): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(1222): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(1531): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(2005): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(2029): error C2440: '=' : cannot convert from 'void *' to 'GenNodoF *'
+                 Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(2037): error C2440: '=' : cannot convert from 'void *' to 'GenConexF *'
+                 Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+     1>d:\h5phet\src\h5phet - neat - cuda\pob.cu(2068): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "D:\h5phet\src\H5PHET - NEAT - CUDA\H5PHET - NEAT - CUDA\H5PHET - NEAT - CUDA.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68

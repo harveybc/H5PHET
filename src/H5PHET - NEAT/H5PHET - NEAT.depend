@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1300713478 source:d:\h5phet\src\h5phet - neat\especie.c
+	"params.h"
+	"auxiliares.h"
+	"genoma.h"
+	"especie.h"
+
+1303928999 "
+
+1300798910 d:\h5phet\src\h5phet - neat\params.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<string.h>
+	<limits.h>
+
+1304148469 
+
+1302206344 d:\h5phet\src\h5phet - neat\auxiliares.h
+	"params.h"
+
+1302199464 d:\h5phet\src\h5phet - neat\genoma.h
+	"params.h"
+
+1297647574 d:\h5phet\src\h5phet - neat\especie.h
+	"params.h"
+
+1300714048 source:d:\h5phet\src\h5phet - neat\gen.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+
+1302269868 s.h"
+
+1295807874 d:\h5phet\src\h5phet - neat\gen.h
+	"params.h"
+
+1302224572 source:d:\h5phet\src\h5phet - neat\genoma.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+	"especie.h"
+	"genoma.h"
+
+1300347118 source:d:\h5phet\src\h5phet - neat\neat.c
+	<sys/types.h>
+	"params.h"
+	"auxiliares.h"
+	"genoma.h"
+	"pob.h"
+
+1302159550 d:\h5phet\src\h5phet - neat\pob.h
+
+1304148469 source:d:\h5phet\src\h5phet - neat\params.c
+	"params.h"
+
+1303928999 source:d:\h5phet\src\h5phet - neat\pob.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+	"genoma.h"
+	"especie.h"
+	"pob.h"
+
+1302269868 source:d:\h5phet\src\h5phet - neat\auxiliares.c
+	"params.h"
+	"auxiliares.h"
+
+1304524397 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/auxiliares.c
+	"params.h"
+	"auxiliares.h"
+
+1304524398 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/params.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<string.h>
+	<limits.h>
+
+1304524397 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/auxiliares.h
+	"params.h"
+
+1304524398 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/especie.c
+	"params.h"
+	"auxiliares.h"
+	"genoma.h"
+	"especie.h"
+
+1304524398 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/genoma.h
+	"params.h"
+
+1304524398 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/especie.h
+	"params.h"
+
+1304524398 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/gen.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+
+1304524398 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/gen.h
+	"params.h"
+
+1304524398 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/genoma.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+	"especie.h"
+	"genoma.h"
+
+1304524398 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/neat.c
+	<sys/types.h>
+	"params.h"
+	"auxiliares.h"
+	"genoma.h"
+	"pob.h"
+
+1304524398 /home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/pob.h
+
+1304524398 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/params.c
+	"params.h"
+
+1305177194 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - NEAT/pob.c
+	"params.h"
+	"auxiliares.h"
+	"gen.h"
+	"genoma.h"
+	"especie.h"
+	"pob.h"
+

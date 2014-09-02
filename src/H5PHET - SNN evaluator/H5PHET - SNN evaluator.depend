@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1292429117 source:d:\h5phet\src\snn_eval\h5phet - snn evaluator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1300763014 
+
+1300763014 source:d:\h5phet\src\h5phet - snn evaluator\snneval.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1305270000 source:/home/harveybc/Dropbox/h5phet/src/H5PHET - SNN evaluator/snneval.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

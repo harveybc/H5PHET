@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="src/H5PHET - NEAT/H5PHET - NEAT.cbp" active="1" />
+		<Project filename="src/H5PHET - SNN evaluator/H5PHET - SNN evaluator.cbp" />
+		<Project filename="src/H5PHET - GTD generator/H5PHET - GTD generator.cbp" />
+		<Project filename="src/H5PHET - GTD input selector/H5PHET - GTD input selector.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

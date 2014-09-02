@@ -1,0 +1,78 @@
+# sync.bat
+
+#conecta a andi
+option batch on
+option confirm off
+open harveybc@test.andi
+cd "/home/harveybc/h5/H5PHET - NEAT"
+option transfer binary
+# copia carpeta H5PHET-NEAT en andi #
+
+#(pob,especie,genoma,gen,auxiliares,params.h y.c)
+put "d:\h5phet\src\H5PHET - NEAT\*.c" 
+put "d:\h5phet\src\H5PHET - NEAT\*.h"
+cd "/home/harveybc/h5"
+# copia syncandi.php a sync.php en andi
+put "d:\h5phet\*.php" 
+# copia trdata.gtd y reps.nnp  a andi
+put "d:\h5phet\reps.nnp"
+#put "d:\h5phet\trdata.gtd" 
+close
+#conecta a credi
+option batch on
+option confirm off
+open harveybc@www.credi
+cd "/srv/www/htdocs/phppgadmin/h5phet/src/H5PHET - NEAT"
+option transfer binary
+# copia carpeta H5PHET-NEAT en credi 
+
+#(pob,especie,genoma,gen,auxiliares,params.h y.c)
+put "d:\h5phet\src\H5PHET - NEAT\*.c" 
+put "d:\h5phet\src\H5PHET - NEAT\*.h"
+cd "/srv/www/htdocs/phppgadmin/h5phet/h5"
+# copia trdata.gtd y reps.nnp  a credi
+put "d:\h5phet\reps.nnp"
+#put "d:\h5phet\trdata.gtd" 
+# copia syncredi.php a sync.php en credi
+cd "/srv/www/htdocs/phppgadmin/h5phet"
+put "d:\h5phet\*.php" 
+close
+
+# SRV LOCALES
+
+#conecta a omega
+option batch on
+option confirm off
+open harveybc@omega
+cd "/home/harveybc/h5/H5PHET - NEAT"
+option transfer binary
+# copia carpeta H5PHET-NEAT en omega (pob,especie,genoma,gen,auxiliares,params.h y.c)
+put "d:\h5phet\src\H5PHET - NEAT\*.c" 
+put "d:\h5phet\src\H5PHET - NEAT\*.h"
+cd "/home/harveybc/h5"
+# copia syncandi.php a sync.php en omega
+put "d:\h5phet\*.php" 
+# copia trdata.gtd y reps.nnp  a omega
+put "d:\h5phet\reps.nnp"
+#put "d:\h5phet\trdata.gtd" 
+close
+
+#conecta a sigma
+option batch on
+option confirm off
+open harveybc@sigma
+cd "/home/harveybc/h5/H5PHET - NEAT"
+option transfer binary
+# copia carpeta H5PHET-NEAT en sigma (pob,especie,genoma,gen,auxiliares,params.h y.c)
+put "d:\h5phet\src\H5PHET - NEAT\*.c" 
+put "d:\h5phet\src\H5PHET - NEAT\*.h"
+cd "/home/harveybc/h5"
+# copia syncandi.php a sync.php en sigma
+put "d:\h5phet\*.php" 
+# copia trdata.gtd y reps.nnp  a sigma
+put "d:\h5phet\reps.nnp"
+#put "d:\h5phet\trdata.gtd" 
+close
+
+exit
+

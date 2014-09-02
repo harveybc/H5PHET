@@ -1,0 +1,37 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          automail
+# Required-Start:    $syslog $time $remote_fs
+# Required-Stop:     $syslog $time $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Automail
+# Description:       Plataforma de procesamiento distribuido de h5phet.
+### END INIT INFO
+#
+# Author:	Ryan Murray <rmurray@debian.org>
+# Edited by Harvey D. Bastidas C.
+
+case "$1" in
+  start)
+        echo "Iniciando automail" "automail"
+	su -c /home/harveybc/h5/autoscript www-data
+	su -c "/usr/sbin/automail -t96 -e8 -n8 -d5 -p/var/www/phppgadmin/h5phet/ -x/usr/sbin/automailconf &" www-data
+    ;;
+  stop)
+	echo "Deteniendo automail" "automail"
+	killall automail
+    ;;
+  force-reload|restart)
+    $0 stop
+    $0 start
+    ;;
+  status)
+	ps -Adf |grep automail
+    ;;
+  *)
+    echo "Usage: /etc/init.d/automail {start|stop|restart|force-reload|status}"
+    exit 1
+    ;;
+esac
+exit 0

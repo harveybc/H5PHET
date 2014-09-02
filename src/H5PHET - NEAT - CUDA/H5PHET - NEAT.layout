@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="auxiliares.c" open="1" top="0" tabpos="1">
+		<Cursor position="717" topLine="18" />
+	</File>
+	<File name="auxiliares.h" open="1" top="0" tabpos="8">
+		<Cursor position="317" topLine="3" />
+	</File>
+	<File name="especie.c" open="1" top="0" tabpos="5">
+		<Cursor position="13159" topLine="232" />
+	</File>
+	<File name="especie.h" open="1" top="0" tabpos="12">
+		<Cursor position="1614" topLine="24" />
+	</File>
+	<File name="gen.c" open="1" top="0" tabpos="3">
+		<Cursor position="12054" topLine="191" />
+	</File>
+	<File name="gen.h" open="0" top="0" tabpos="10">
+		<Cursor position="3748" topLine="0" />
+	</File>
+	<File name="genoma.c" open="1" top="0" tabpos="4">
+		<Cursor position="4707" topLine="76" />
+	</File>
+	<File name="genoma.h" open="1" top="0" tabpos="11">
+		<Cursor position="368" topLine="0" />
+	</File>
+	<File name="neat.c" open="1" top="0" tabpos="7">
+		<Cursor position="5236" topLine="63" />
+	</File>
+	<File name="params.c" open="1" top="0" tabpos="2">
+		<Cursor position="13061" topLine="0" />
+	</File>
+	<File name="params.h" open="1" top="0" tabpos="9">
+		<Cursor position="17254" topLine="256" />
+	</File>
+	<File name="pob.c" open="1" top="1" tabpos="6">
+		<Cursor position="9282" topLine="213" />
+	</File>
+	<File name="pob.h" open="1" top="0" tabpos="10">
+		<Cursor position="710" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

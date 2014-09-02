@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1303894265 source:d:\h5phet\src\h5phet - gtd input selector\inputselector.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1300352799 source:d:\h5phet\src\h5phet - gtd generator\gtdgen.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<errno.h>
+
