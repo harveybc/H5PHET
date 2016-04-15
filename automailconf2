@@ -5,7 +5,7 @@ rm -f /var/www/phppgadmin/h5phet/temp1.nnp
 rm -f /var/www/phppgadmin/h5phet/temp2.nnp
 # trae los archivos temporales
 wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp0.nnp http://200.26.142.227/phppgadmin/h5phet/reps_inic.nnp
-wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp1.nnp http://www.credirebaja.com/phppgadmin/h5phet/reps_inic.nnp 
+wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp1.nnp http://xx.xx.xx.xx/phppgadmin/h5phet/reps_inic.nnp 
 wget -t 1 -T 3 -q -nd -O /var/www/phppgadmin/h5phet/temp2.nnp http://10.11.0.46/phppgadmin/h5phet/reps_inic.nnp 
 #verifica si los temporales tienen tamaño mayor a cero
 if [ -s /var/www/phppgadmin/h5phet/temp0.nnp ]; then
